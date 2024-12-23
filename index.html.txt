@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мария - Обувки, Чанти и Портмонета</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+        header {
+            background: linear-gradient(90deg, #ff4500, #ff0000);
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            color: #fff;
+            font-size: 2.5em;
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ff4500;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-image: url('hero-image.jpg'); /* Replace with a banner image */
+            background-size: cover;
+            background-position: center;
+        }
+        .hero h2 {
+            font-size: 2em;
+            color: #ffd700;
+        }
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .category {
+            background-color: #222;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            width: 200px;
+            text-align: center;
+        }
+        .category a {
+            color: #ffd700;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            padding: 20px;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Мария</h1>
+        <p>Обувки, Чанти и Портмонета</p>
+    </header>
+    <nav>
+        <a href="#">Начало</a>
+        <a href="#categories">Категории</a>
+        <a href="#about">За нас</a>
+        <a href="#contact">Контакти</a>
+    </nav>
+    <section class="hero">
+        <h2>Открийте стил и комфорт!</h2>
+        <p>Дамски и мъжки обувки, чанти и портмонета с високо качество.</p>
+    </section>
+    <section id="categories" class="categories">
+        <div class="category">
+            <a href="#">Дамски обувки</a>
+        </div>
+        <div class="category">
+            <a href="#">Мъжки обувки</a>
+        </div>
+        <div class="category">
+            <a href="#">Чанти</a>
+        </div>
+        <div class="category">
+            <a href="#">Портмонета</a>
+        </div>
+    </section>
+    <footer>
+        <p>Магазин Мария | Всички права запазени | Контакт: +359 888 123 456</p>
+    </footer>
+</body>
+</html>
